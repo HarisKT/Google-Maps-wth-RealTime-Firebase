@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ <title>MAP</title>
+ <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
+
+ <script src="./index.js"></script>
+    </head>
+    <body>
+        <!--The div element for the map -->
+        
+       <footer>
+        <div id="map"></div>
+        <!-- Replace the value of the key parameter with your own API key. -->
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBVHcLKC3ja-ZCsyWQLe0eBB3q28F7V6X0&callback=initMap">
+        </script>
+  
+        <style>
+            /* Set the size of the div element that contains the map */
+            #map {
+            height: 800px;  /* The height is 400 pixels */
+            width: 100%;  /* The width is the width of the web page */
+            }
+        </style>
+
+
+<!-- <script>
+        database5=firebase.database();
+        firedata5=new Array();
+        //temp=new Array();
+        i=0;  
+           var leadsRef5 =database5.ref("bus/");
+           leadsRef5.limitToLast(1).on('value', function(snapshot) {
+           snapshot.forEach(function(childSnapshot) {
+           var childData5 = childSnapshot.val();
+           firedata5.push(childData5);
+           data000001=firedata5[firedata5.length- 1];
+           data000002=JSON.stringify(data000001);
+           data000003=JSON.parse(data000002);
+           console.log(data000003.lat);
+           console.log(data000003.lon);
+         /* for(i=0;i<firedata.length;i++){
+                console.log(firedata[i]); 
+                temp1=JSON.parse(firedata[i]);
+                console.log(temp1.temp)
+                strData = "&label=" + label +
+               "&value=" +(temp1.temp); 
+          }*/
+           });
+
+                });
+
+</script> -->
+
+    </footer>
+    </body>
+</html>
