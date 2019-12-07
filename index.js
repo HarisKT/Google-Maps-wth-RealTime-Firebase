@@ -1,11 +1,11 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCH96BKQmc8Ug_SRNJmBgXdI_HI23jpeDA",
-    authDomain: "alltestbase.firebaseapp.com",
-    databaseURL: "https://alltestbase.firebaseio.com",
-    projectId: "alltestbase",
-    storageBucket: "alltestbase.appspot.com",
-    messagingSenderId: "868872181139",
-    appId: "1:868872181139:web:041b8029f0c2d4dcde4466"
+    apiKey: "XXXXXXXXXXXXXXXXXXXX",
+    authDomain: "XXXXXXX.firebaseapp.com",
+    databaseURL: "https://YYYYYYY.firebaseio.com",
+    projectId: "YYYYYYY",
+    storageBucket: "YYYYYY.appspot.com",
+    messagingSenderId: "876765181139",
+    appId: "1:86887215765739:web:041b8029f0c2d4dcde4466"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
